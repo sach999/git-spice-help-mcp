@@ -28,7 +28,7 @@ async function startServer() {
     try {
         // Create an MCP server with explicit capabilities
         const server = new McpServer({
-            name: "Cursor MCP Server",
+            name: "Git spice help MCP Server",
             version: "1.0.0",
             capabilities: {
                 tools: {},  // Enable tools capability

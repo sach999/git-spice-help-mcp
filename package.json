@@ -1,0 +1,26 @@
+{
+  "name": "test-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.12",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
